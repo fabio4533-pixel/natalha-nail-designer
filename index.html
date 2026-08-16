@@ -34,19 +34,21 @@ footer{padding:30px 0 48px;color:var(--muted);font-size:13px}.float{position:fix
 </style>
 </head>
 <body>
-<header><div class="wrap nav"><div class="brand"><img src="/logo.jpg" alt="Natalha Seidel | Nail Designer" style="height:58px;width:58px;object-fit:contain;border-radius:12px;vertical-align:middle;margin-right:10px">Natalha Seidel • Nail Designer</div><nav><a href="#servicos">Serviços</a><a href="#galeria">Galeria</a><a href="#agendar">Agendar</a></nav><a class="cta" href="#agendar">Agendar agora</a></div></header>
+<header><div class="wrap nav"><div class="brand"><img src="/logo.jpg" alt="Natalha Seidel | Nail Designer" style="height:58px;width:58px;object-fit:contain;border-radius:12px;vertical-align:middle;margin-right:10px">Natalha Seidel • Nail Designer</div><nav><a href="#servicos">Serviços</a><a href="#galeria">Galeria</a><a href="#agendar">Agendar</a></nav><a class="cta" href="https://wa.me/5547933004876?text=Ol%C3%A1%20Natalha%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noreferrer">Agendar pelo WhatsApp</a></div></header>
 <main>
 <section class="hero"><div class="wrap hero-grid">
-<div><div class="eyebrow">Beleza • cuidado • precisão</div><h1>Unhas elegantes, feitas para você.</h1><p class="lead">Atendimento profissional com acabamento delicado, ambiente acolhedor e agendamento simples pelo celular.</p><div class="actions"><a class="btn primary" href="#agendar">Escolher horário</a><a class="btn" href="https://www.instagram.com/natalhaseidel.nails" target="_blank" rel="noreferrer">Ver Instagram</a><a class="btn" href="https://wa.me/5547933004876" target="_blank" rel="noreferrer">Falar no WhatsApp</a></div></div>
+<div><div class="eyebrow">Beleza • cuidado • precisão</div><h1>Unhas elegantes, feitas para você.</h1><p class="lead">Atendimento profissional com acabamento delicado, ambiente acolhedor e agendamento simples pelo celular.</p><div class="actions"><a class="btn primary" href="https://wa.me/5547933004876?text=Ol%C3%A1%20Natalha%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" rel="noreferrer">Agendar pelo WhatsApp</a><a class="btn" href="https://www.instagram.com/natalhaseidel.nails" target="_blank" rel="noreferrer">Ver Instagram</a><a class="btn" href="https://wa.me/5547933004876" target="_blank" rel="noreferrer">Falar no WhatsApp</a></div></div>
 <div class="hero-card"><img src="/natalha-hero.jpg" alt="Unhas profissionais"></div>
 </div></section>
 
 <section id="servicos" class="section"><div class="wrap"><h2>Serviços & valores</h2><p class="sub">Confira os principais procedimentos disponíveis.</p>
 <div class="services">
-<div class="service"><b>Alongamento em Molde F1</b><span>R$ 130,00</span></div>
-<div class="service"><b>Blindagem</b><span>R$ 60,00</span></div>
-<div class="service"><b>Banho em Gel</b><span>R$ 80,00</span></div>
-<div class="service"><b>Manutenção</b><span>R$ 100,00</span></div>
+<div class="service"><b>Alongamento</b><span>R$ 100,00</span></div>
+<div class="service"><b>Blindagem</b><span>R$ 75,00</span></div>
+<div class="service"><b>Esmaltação em gel</b><span>R$ 60,00</span></div>
+<div class="service"><b>Remoção</b><span>R$ 50,00</span></div>
+<div class="service"><b>Reposição de unha</b><span>R$ 15,00</span></div>
+<div class="service"><b>Manutenção</b><span>R$ 95,00</span></div>
 </div>
 </div></section>
 
@@ -66,7 +68,7 @@ footer{padding:30px 0 48px;color:var(--muted);font-size:13px}.float{position:fix
 <div><form id="bookingForm">
 <div class="field"><label>Seu nome</label><input name="client_name" required placeholder="Ex.: Maria Silva"></div>
 <div class="field"><label>WhatsApp</label><input name="whatsapp" required placeholder="(47) 99999-9999"></div>
-<div class="field full"><label>Serviço</label><select name="service" id="serviceSelect" required><option value="">Selecione</option><option data-price="130">Alongamento em Molde F1 — R$ 130,00</option><option data-price="60">Blindagem — R$ 60,00</option><option data-price="80">Banho em Gel — R$ 80,00</option><option data-price="100">Manutenção — R$ 100,00</option></select><div id="pricePreview" class="note" style="font-weight:800;color:var(--wine)"></div></div>
+<div class="field full"><label>Serviço</label><select name="service" id="serviceSelect" required><option value="">Selecione</option><option data-price="100">Alongamento — R$ 100,00</option><option data-price="75">Blindagem — R$ 75,00</option><option data-price="60">Esmaltação em gel — R$ 60,00</option><option data-price="50">Remoção — R$ 50,00</option><option data-price="15">Reposição de unha — R$ 15,00</option><option data-price="95">Manutenção — R$ 95,00</option></select><div id="pricePreview" class="note" style="font-weight:800;color:var(--wine)"></div></div>
 <div class="field"><label>Data</label><input type="date" name="appointment_date" required></div>
 <div class="field"><label>Horário</label><select name="appointment_time" id="timeSelect" required><option value="">Escolha primeiro a data</option></select></div>
 <div class="field full"><label>Observação</label><textarea name="notes" rows="3" placeholder="Ex.: formato almond, cor nude..."></textarea></div>
