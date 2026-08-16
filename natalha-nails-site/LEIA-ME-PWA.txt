@@ -1,8 +1,0 @@
-Natalha Nails — site e agenda instalável (PWA).
-
-Arquivos principais:
-- index.html: site público e agendamento
-- admin.html: painel administrativo
-- manifest.webmanifest, sw.js, install-app.js: instalação como app
-
-O painel usa PIN privado.
