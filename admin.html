@@ -32,12 +32,10 @@
 <script>
 const ENDPOINT='https://fzpffyouubmbxfwycywg.supabase.co/functions/v1/natalha-nail-bookings'; let PIN='';
 const PRICES={
-'Alongamento':100,
-'Blindagem':75,
-'Esmaltação em gel':60,
-'Remoção':50,
-'Reposição de unha':15,
-'Manutenção':95
+'Alongamento em Molde F1':130,
+'Blindagem':60,
+'Banho em Gel':80,
+'Manutenção':100
 };
 const money=v=>Number(v||0).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
 async function api(payload){const r=await fetch(ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({...payload,pin:PIN})});const d=await r.json();if(!r.ok) throw new Error(d.error||'Erro');return d}
